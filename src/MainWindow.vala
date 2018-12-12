@@ -344,6 +344,7 @@ namespace ScreenRecorder {
             ffmpegwrapper.stop();
             actions.remove (stop_btn);
             actions.add (record_btn);
+            /*save file to Videos(easier) or save to chosen location(Harder but better)*/
         }
     }
 }
